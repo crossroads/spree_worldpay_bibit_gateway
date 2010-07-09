@@ -1,0 +1,17 @@
+---
+development:
+  gateway: RBS WorldPay (Bibit)
+  login: xxxxxxxxxx
+  password: xxxxxxxxxx
+  test: 1
+test:
+  gateway: RBS WorldPay (Bibit)
+  login: xxxxxxxxxx
+  password: xxxxxxxxxx
+  test: 1
+production:
+  gateway: RBS WorldPay (Bibit)
+  login: xxxxxxxxxx
+  password: xxxxxxxxxx
+  test: 0
+
