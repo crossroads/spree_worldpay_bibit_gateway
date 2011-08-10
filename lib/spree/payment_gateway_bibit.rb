@@ -8,7 +8,7 @@ module Spree
         product_list << "product: #{line_item.variant.name}\n"
         product_list << "  barcode: #{line_item.variant.sku}\n"
       end
-      default_description = "Global Handicrafts Purchase - #{Time.now}"
+      default_description = "Purchase on #{Time.now}"
       {:email => checkout.email,
        :customer => checkout.email,
        :ip => checkout.ip_address,
